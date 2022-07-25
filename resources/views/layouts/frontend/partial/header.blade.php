@@ -10,10 +10,9 @@
                     <div class="main-menu__main-menu-box">
                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                         <ul class="main-menu__list">
-                            <li class="dropdown current">
-                                <a href="contact.html">Home </a>
+                            <li class="active">
+                                <a href={{ url('/') }}>Home </a>
                             </li>
-
                             <li class="dropdown megamenu">
                                 <a href="index.html">Services </a>
                                 <ul>
