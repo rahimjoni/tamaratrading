@@ -4159,7 +4159,7 @@ ul {
 .trust-company {
   position: relative;
   display: block;
-  padding: 138px 0 120px;
+  padding: 80px 0 60px;
   overflow: hidden;
 }
 
@@ -4186,7 +4186,7 @@ ul {
 
 .trust-company-shape-1 {
   position: absolute;
-  top: -2px;
+  top: -35px;
   left: 0;
   z-index: 2;
 }
@@ -4197,22 +4197,22 @@ ul {
 
 .trust-company-shape-2 {
   position: absolute;
-  top: -95px;
+  top: -136px;
   left: 195px;
   width: 5px;
   height: 616px;
-  background-color: var(--roofsie-base);
+  background-color: #990008;
   z-index: 2;
   transform: rotate(45deg);
 }
 
 .trust-company-shape-3 {
   position: absolute;
-  top: -63px;
+  top: -85px;
   left: 317px;
   width: 5px;
   height: 400px;
-  background-color: var(--roofsie-base);
+  background-color: #990008;
   z-index: 2;
   transform: rotate(45deg);
 }
@@ -4221,7 +4221,7 @@ ul {
   position: absolute;
   top: -184px;
   left: 310px;
-  width: 105px;
+  width: 60px;
   height: 812px;
   background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
   background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
@@ -4914,7 +4914,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 118px 0 120px;
+  padding: 60px 0 60px;
 }
 
 .footer-widget__about {
@@ -5526,7 +5526,7 @@ ul {
   display: block;
   background-color: var(--roofsie-black);
   overflow: hidden;
-  padding: 120px 0 120px;
+  padding: 60px 0 60px;
   z-index: 1;
 }
 
@@ -8458,7 +8458,7 @@ ul {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 1200px;
+  width: 100%;
   content: "";
   background-image: -moz-linear-gradient(-1deg, rgb(100, 9, 9) 0%, rgba(130, 40, 27, 0) 140%);
   background-image: -webkit-linear-gradient(-1deg, rgb(100, 9, 9) 0%, rgba(130, 40, 27, 0) 140%);
@@ -9807,7 +9807,7 @@ ul {
 
 .service-details__category-title {
   font-size: 20px;
-  color: var(--roofsie-base);
+  color: #990008;
   line-height: 20px;
   display: block;
   background-color: #e4e5ea;
@@ -9860,7 +9860,7 @@ ul {
   left: 0;
   right: 0px;
   content: "";
-  background-color: var(--roofsie-base);
+  background-color: #990008;
   border-radius: var(--roofsie-bdr-radius);
   transform: scaleX(0);
   -webkit-transition: all 500ms ease;
@@ -9919,7 +9919,7 @@ ul {
   margin-bottom: 30px;
   text-align: center;
   z-index: 1;
-  background-color: var(--roofsie-base);
+  background-color: #990008;
   border-radius: var(--roofsie-bdr-radius);
 }
 
@@ -9932,7 +9932,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--roofsie-base);
+  background-color: #990008;
   opacity: 0.10;
   border-radius: 30px;
   z-index: -1;
@@ -10021,7 +10021,7 @@ ul {
 }
 
 .service-details__btn:before {
-  background-color: var(--roofsie-base);
+  background-color: #990008;
 }
 
 .service-details__right {
@@ -10045,7 +10045,7 @@ ul {
   right: 20px;
   height: 80px;
   width: 80px;
-  background-color: var(--roofsie-base);
+  background-color: #990008;
   display: flex;
   align-items: center;
   justify-content: center;

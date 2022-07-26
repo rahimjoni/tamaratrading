@@ -1,6 +1,5 @@
 <footer class="site-footer">
     <div class="site-footer-img-1">
-        <img src="{{ asset('assets/frontend/images/resources/site-footer-img-1.png') }}" alt="">
     </div>
     <div class="site-footer-shape-1">
         <img src="{{ asset('assets/frontend/images/shapes/site-footer-shape-1.png') }}" alt="">
@@ -11,7 +10,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__about-text-box">
-                            <p class="footer-widget__about-text">Roofsie with more than two years of proven success in quality roofing services.</p>
+                            <p class="footer-widget__about-text">Tamara Trading with more than two years of proven success in quality roofing services.</p>
                         </div>
                         <div class="site-footer__social">
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -25,11 +24,8 @@
                     <div class="footer-widget__column footer-widget__explore clearfix">
                         <h3 class="footer-widget__title">Explore</h3>
                         <ul class="footer-widget__explore-list list-unstyled clearfix">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="work.html">Recent Works</a></li>
-                            <li><a href="team.html">Our Team</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="{{ url('about-us') }}">About Us</a></li>
+                            <li><a href="{{ url('contat-us') }}">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +71,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
-                        <p class="site-footer__bottom-text">© All Copyright 2022 by <a href="#">Roofsie.com</a></p>
+                        <p class="site-footer__bottom-text">© All Copyright <script>document.write(new Date().getFullYear())</script> by <span><a href="{{ url('/') }}">Tamara Trading</a></span></p>
                     </div>
                 </div>
             </div>

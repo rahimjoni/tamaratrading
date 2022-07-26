@@ -21,4 +21,9 @@ class PageController extends Controller
     {
         return view('layouts.frontend.about');
     }
+
+    public function services()
+    {
+        return view('layouts.frontend.services');
+    }
 }

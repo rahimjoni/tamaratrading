@@ -14,7 +14,7 @@
                                 <a href={{ url('/') }}>Home </a>
                             </li>
                             <li class="dropdown megamenu">
-                                <a href="index.html">Services </a>
+                                <a href="javascript:;">Services </a>
                                 <ul>
                                     <li>
                                         <section class="home-showcase megamenu-left">
@@ -39,7 +39,7 @@
                                                                 <div class="home-showcase__image">
                                                                 </div><!-- /.home-showcase__image -->
                                                                 <h3 class="home-showcase__title">Services</h3><hr><!-- /.home-showcase__title -->
-                                                                <h5 class=""><a class="menu-mega" href="#">Procurement</a></h5>
+                                                                <h5 class=""><a class="menu-mega" href="{{ url('/services') }}">Procurement</a></h5>
                                                                 <h5 class=""><a class="menu-mega" href="#">Logistics</a></h5>
                                                                 <h5 class=""><a class="menu-mega" href="#">Warehouse</a></h5>
                                                                 <h5 class=""><a class="menu-mega" href="#">E-procurement</a></h5>
@@ -71,9 +71,6 @@
                             <li class="{{ request()->is('about-us') ? 'current' : '' }}">
                                 <a href="{{ url('/about-us') }}">About Us</a>
                             </li>
-                            <li>
-                                <a href="contact.html">Divisions </a>
-                            </li>
                             <li class="{{ request()->is('contact-us') ? 'current' : '' }}">
                                 <a href="{{ url('contact-us') }}">Contact Us</a>
                             </li>
@@ -94,7 +91,7 @@
                         <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
                     </div>
                     <div class="main-menu__btn-box">
-                        <a href="contact.html" class="thm-btn main-menu__btn"> Information Request <i class="fa fa-arrow-right"></i>  </a>
+                        <a href="{{ url('contact-us') }}" class="thm-btn main-menu__btn"> Information Request <i class="fa fa-arrow-right"></i>  </a>
                     </div>
                 </div>
             </div>

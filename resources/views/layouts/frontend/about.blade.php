@@ -116,7 +116,7 @@
         <div class="trust-company-shape-2"></div>
         <div class="trust-company-shape-3"></div>
         <div class="trust-company-shape-4"></div>
-        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/trust-company-bg.jpg);"></div>
+        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png);"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-7">

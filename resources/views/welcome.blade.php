@@ -66,7 +66,7 @@
                                     <p class="main-slider__sub-title">THE PURCHASING SPECIALIST FOR OIL & GAS</p>
                                     <h2 class="main-slider__title">INDIRECT PURCHASING OIL & GAS</h2>
                                     <div class="main-slider__btn-box">
-                                        <a href="about.html" class="thm-btn main-slider__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
+                                        <a href="{{ url('services') }}" class="thm-btn main-slider__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
                                     </div>
                                 </div>
                             </div>
@@ -150,9 +150,9 @@
                         <div class="services-two__icon">
                             <i class="fa fa-plus"></i>
                         </div>
-                        <h3 class="services-two__title"><a href="single-play-roofing.html">PROCUREMENT</a></h3>
+                        <h3 class="services-two__title"><a href="{{ url('services') }}">PROCUREMENT</a></h3>
                         <div class="services-two__read-more">
-                            <a href="single-play-roofing.html"> More <i class="fa fa-arrow-right"></i></a>
+                            <a href="{{ url('services') }}"> More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                     <h3 class="cta-one__title">WE OPTIMIZE YOUR PROCUREMENT PROCESS</h3>
                 </div>
                 <div class="cta-one__btn-box">
-                    <a href="contact.html" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> REQUEST ADVICE</a>
+                    <a href="{{ url('contact-us') }}" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> REQUEST ADVICE</a>
                 </div>
             </div>
         </div>
@@ -297,7 +297,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <a href="about.html" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
+                        <a href="{{ url('about-us') }}" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
                     </div>
                 </div>
             </div>
@@ -305,7 +305,7 @@
     </section>
     <!--About One End-->
     <section class="why-choose-two">
-        <div class="why-choose-two-bg" style="background-image: url(assets/frontend/images/backgrounds/why-choose-two-bg.jpg);"></div>
+        <div class="why-choose-two-bg" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png);"></div>
         <div class="container">
             <div class="section-title text-center">
                 <div class="section-sub-title-box">
@@ -328,7 +328,7 @@
                                     <p>In a free hour when our power of choice is untrammelled and when nothing
                                         prevents.</p>
                                     <div class="why-choose-two__read-more">
-                                        <a href="about.html">Read More <i class="fa fa-arrow-right"></i> </a>
+                                        <a href="{{ url('services') }}">Read More <i class="fa fa-arrow-right"></i> </a>
                                     </div>
                                 </div>
                             </li>
@@ -391,7 +391,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><br>
     <!--Why Choose One Start-->
 
     <!--Brand One Start-->
@@ -449,7 +449,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><br>
     <!--Brand One End-->
 
     <!--Trust Company Start-->
@@ -460,7 +460,7 @@
         <div class="trust-company-shape-2"></div>
         <div class="trust-company-shape-3"></div>
         <div class="trust-company-shape-4"></div>
-        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/trust-company-bg.jpg);"></div>
+        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png);"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-7">
@@ -508,7 +508,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><br><br>
     <!--Trust Company End-->
 @endsection
 
