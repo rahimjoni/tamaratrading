@@ -28,7 +28,6 @@
             height: 100px;
             width: 250px;
         }
-
     </style>
 @endpush
 
@@ -305,7 +304,6 @@
         </div>
     </section>
     <!--About One End-->
-
     <section class="why-choose-two">
         <div class="why-choose-two-bg" style="background-image: url(assets/frontend/images/backgrounds/why-choose-two-bg.jpg);"></div>
         <div class="container">
@@ -462,7 +460,7 @@
         <div class="trust-company-shape-2"></div>
         <div class="trust-company-shape-3"></div>
         <div class="trust-company-shape-4"></div>
-        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/trust-company-bg.jpg);"></div>
+        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/trust-company-bg.jpg);"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-7">

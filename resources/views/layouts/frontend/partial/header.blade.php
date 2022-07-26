@@ -10,7 +10,7 @@
                     <div class="main-menu__main-menu-box">
                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                         <ul class="main-menu__list">
-                            <li class="active">
+                            <li class="{{ request()->is('/about-us') ? 'current' : '' }}">
                                 <a href={{ url('/') }}>Home </a>
                             </li>
                             <li class="dropdown megamenu">
@@ -68,14 +68,14 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#">About Us</a>
+                            <li class="{{ request()->is('about-us') ? 'current' : '' }}">
+                                <a href="{{ url('/about-us') }}">About Us</a>
                             </li>
                             <li>
                                 <a href="contact.html">Divisions </a>
                             </li>
-                            <li>
-                                <a href="contact.html">Contact </a>
+                            <li class="{{ request()->is('contact-us') ? 'current' : '' }}">
+                                <a href="{{ url('contact-us') }}">Contact Us</a>
                             </li>
                         </ul>
                     </div>

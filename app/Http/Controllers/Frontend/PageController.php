@@ -11,4 +11,14 @@ class PageController extends Controller
     {
         return view('welcome');
     }
+
+    public function contactUs()
+    {
+        return view('layouts.frontend.contact');
+    }
+
+    public function aboutUs()
+    {
+        return view('layouts.frontend.about');
+    }
 }

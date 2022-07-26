@@ -24,4 +24,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Route for frontend layout
 Route::group(['namespace' => 'Frontend'], function() {
     Route::get('/','PageController@homePage');
+    Route::get('/contact-us','PageController@contactUs');
+    Route::get('/about-us','PageController@aboutUs');
 });
