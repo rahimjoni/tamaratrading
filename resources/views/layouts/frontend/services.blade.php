@@ -1,6 +1,6 @@
 @extends('layouts.frontend.app')
 
-@section('title','Contact Us')
+@section('title','Services')
 
 @push('css')
     <style>
