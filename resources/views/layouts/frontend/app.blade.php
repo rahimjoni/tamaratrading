@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title') - {{ config('app.name', 'Tamara') }}</title>
+    <title>@yield('title') - {{ config('app.name', 'Tamara Trading') }}</title>
 
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/frontend/images/favicons/icon.png') }}" />
@@ -86,8 +86,8 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image">
-                <img src="{{ asset('assets/frontend/images/resources/logo-3.png') }}" width="143" alt="" />
+            <a href="{{ url('/') }}" aria-label="logo image">
+                <img src="{{ asset('assets/frontend/images/resources/Vertical-Logo-white-01.png') }}" class="img-fluid" width="100" alt="" style="margin-top: -38px" />
             </a>
         </div>
         <!-- /.logo-box -->
@@ -97,11 +97,11 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@roofsie.com</a>
+                <a href="mailto:Info@tamara-group.com">Info@tamara-group.com </a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:+966 13 830 2223 ">+966 13 830 2223 </a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">
@@ -127,7 +127,7 @@
         <form action="#">
             <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
             <input type="text" id="search" placeholder="Search Here..." />
-            <button type="submit" aria-label="search submit" class="thm-btn">
+            <button type="submit" aria-label="search submit" class="thm-btn" style="background-color: #99774C">
                 <i class="icon-magnifying-glass"></i>
             </button>
         </form>

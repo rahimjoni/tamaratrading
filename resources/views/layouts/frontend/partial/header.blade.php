@@ -1,7 +1,7 @@
 <header class="main-header clearfix">
     <div class="main-header__logo">
         <a href="{{ url('/') }}">
-            <img src="{{ asset('assets/frontend/images/resources/HorizontalLogo-01.png') }}" alt="" class="log-image"></a>
+            <img src="{{ asset('assets/frontend/images/resources/Vertical-Logo-01.png') }}" alt="" class="log-image"></a>
     </div>
     <nav class="main-menu clearfix">
         <div class="main-menu__wrapper clearfix">
@@ -11,68 +11,24 @@
                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                         <ul class="main-menu__list">
                             <li class="{{ request()->is('/about-us') ? 'current' : '' }}">
-                                <a href={{ url('/') }}>Home </a>
+                                <a href={{ url('/') }}>HOME </a>
                             </li>
-                            <li class="dropdown megamenu">
-                                <a href="javascript:;">Services </a>
-                                <ul>
-                                    <li>
-                                        <section class="home-showcase megamenu-left">
-                                            <div class="container">
-                                                <div class="home-showcase__inner">
-                                                    <div class="row">
-                                                        <div class="col-lg-4">
-                                                            <div class="home-showcase__item">
-                                                                <div class="home-showcase__image">
-                                                                </div><!-- /.home-showcase__image -->
-                                                                <h3 class="home-showcase__title">Expertises</h3><hr><!-- /.home-showcase__title -->
-                                                                <h5 class=""><a class="menu-mega" href="#">Tail spend management</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Non product related (indirect procurement)</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Invoice and supplier base reduction</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Lower Total Cost of Ownership (TCO)</a></h5>
-
-                                                            </div><!-- /.home-showcase__item -->
-                                                        </div><!-- /.col-lg-3 -->
-
-                                                        <div class="col-lg-4">
-                                                            <div class="home-showcase__item">
-                                                                <div class="home-showcase__image">
-                                                                </div><!-- /.home-showcase__image -->
-                                                                <h3 class="home-showcase__title">Services</h3><hr><!-- /.home-showcase__title -->
-                                                                <h5 class=""><a class="menu-mega" href="{{ url('/services') }}">Procurement</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Logistics</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Warehouse</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">E-procurement</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">P-card solutions</a></h5>
-
-                                                            </div><!-- /.home-showcase__item -->
-                                                        </div><!-- /.col-lg-3 -->
-
-                                                        <div class="col-lg-4">
-                                                            <div class="home-showcase__item">
-                                                                <div class="home-showcase__image">
-                                                                </div><!-- /.home-showcase__image -->
-                                                                <h3 class="home-showcase__title">Disciplines</h3><hr><!-- /.home-showcase__title -->
-                                                                <h5 class=""><a class="menu-mega" href="#">Procurement Services</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Project Supply</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Piping Supply</a></h5>
-                                                                <h5 class=""><a class="menu-mega" href="#">Material Handling</a></h5>
-
-                                                            </div><!-- /.home-showcase__item -->
-                                                        </div><!-- /.col-lg-3 -->
-                                                    </div><!-- /.row -->
-                                                </div><!-- /.home-showcase__inner -->
-
-                                            </div><!-- /.container -->
-                                        </section>
-                                    </li>
+                            <li class="dropdown">
+                                <a href="javascript:;">OFFERING</a>
+                                <ul class="border-top-2px">
+                                    <li><a class="menu-mega" href="{{ url('/project') }}">PROJECT SUPPLY</a></li>
+                                    <li><a class="menu-mega" href="{{ url('/piping') }}">PIPE SUPPLY</a></li>
+                                    <li><a class="menu-mega" href="{{ url('/mro') }}">MRO SUPPLY</a></li>
                                 </ul>
                             </li>
+                            <li class="{{ request()->is('strategic-partnership') ? 'current' : '' }}">
+                                <a href="{{ url('/strategic-partnership') }}">STRATEGIC PARTNERSHIP</a>
+                            </li>
                             <li class="{{ request()->is('about-us') ? 'current' : '' }}">
-                                <a href="{{ url('/about-us') }}">About Us</a>
+                                <a href="{{ url('/about-us') }}">ABOUT US</a>
                             </li>
                             <li class="{{ request()->is('contact-us') ? 'current' : '' }}">
-                                <a href="{{ url('contact-us') }}">Contact Us</a>
+                                <a href="{{ url('contact-us') }}">CONTACT US</a>
                             </li>
                         </ul>
                     </div>
@@ -84,7 +40,7 @@
                         </div>
                         <div class="main-menu__call-content">
                             <p>Call Anytime</p>
-                            <a href="tel:9200368090">+92 (003) 68-090</a>
+                            <a href="tel:+966138302223 ">+966 13 830 2223 </a>
                         </div>
                     </div>
                     <div class="main-menu__search-box">

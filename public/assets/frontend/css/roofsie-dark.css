@@ -21,8 +21,8 @@ body.boxed-wrapper .page-wrapper,
     color: #86838c;
 }
 
-.main-menu__call-content p, 
-.main-menu .main-menu__list>li>a, 
+.main-menu__call-content p,
+.main-menu .main-menu__list>li>a,
 .stricky-header .main-menu__list>li>a,
 .feature-one__text,
 .about-one__text,
@@ -112,7 +112,7 @@ body.boxed-wrapper .page-wrapper,
 }
 
 .project-one__carousel.owl-carousel .owl-dot.active {
-    background-color: var(--roofsie-base);
+    background-color: #99774C;
 }
 
 .trust-company-bg:before {
@@ -144,11 +144,11 @@ body.boxed-wrapper .page-wrapper,
 }
 
 .thm-btn:hover {
-    color: var(--roofsie-base);
+    color: #99774C;
 }
 
 .thm-btn:hover i{
-    background-color: var(--roofsie-base);
+    background-color: #99774C;;
     color: var(--roofsie-white);
 }
 

@@ -10,7 +10,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__about-text-box">
-                            <p class="footer-widget__about-text">Tamara Trading with more than two years of proven success in quality roofing services.</p>
+                            <p class="footer-widget__about-text">Tamara Trading primarily a trading company that source products and materials for industrial projects</p>
                         </div>
                         <div class="site-footer__social">
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -24,8 +24,10 @@
                     <div class="footer-widget__column footer-widget__explore clearfix">
                         <h3 class="footer-widget__title">Explore</h3>
                         <ul class="footer-widget__explore-list list-unstyled clearfix">
-                            <li><a href="{{ url('about-us') }}">About Us</a></li>
-                            <li><a href="{{ url('contat-us') }}">Contact Us</a></li>
+                            <li><a href="{{ url('/project') }}">Offering</a></li>
+                            <li><a href="{{ url('/strategic-partnership') }}">Strategic Partnership</a></li>
+                            <li><a href="{{ url('/about-us') }}">About Us</a></li>
+                            <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,14 +46,15 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="footer-widget__column footer-widget__contact">
                         <h3 class="footer-widget__title">Contact</h3>
-                        <p class="footer-widget__contact-text">88 Broklyn Golden Road Street, <br> New York. USA</p>
+                        <p class="footer-widget__contact-text">2682 Bashar Bin Burd Street, <br>Office number 406,<br>
+                            Olaya, Al Khobar - 7353 <br>34448, Saudi Arabia</p>
                         <ul class="list-unstyled footer-widget__contact-list">
                             <li>
                                 <div class="icon">
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:needhelp@company.com ">needhelp@company.com</a></p>
+                                    <p><a href="mailto:needhelp@company.com ">Info@tamara-group.com </a></p>
                                 </div>
                             </li>
                             <li>
@@ -59,7 +62,7 @@
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="tel:9200368090">+92 (003) 68-090</a></p>
+                                    <p><a href="tel:+966 13 830 2223 ">+966 13 830 2223 </a></p>
                                 </div>
                             </li>
                         </ul>

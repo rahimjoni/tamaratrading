@@ -27,4 +27,8 @@ Route::group(['namespace' => 'Frontend'], function() {
     Route::get('/contact-us','PageController@contactUs');
     Route::get('/about-us','PageController@aboutUs');
     Route::get('/services','PageController@services');
+    Route::get('/project','PageController@project');
+    Route::get('/piping','PageController@piping');
+    Route::get('/mro','PageController@mro');
+    Route::get('/strategic-partnership','PageController@strategicPartnership');
 });

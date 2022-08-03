@@ -27,13 +27,14 @@
         .sliderTest .slide {
             height: 100px;
             width: 250px;
+            margin-top: 25px;
         }
     </style>
 @endpush
 
 @section('content')
     <section class="page-header">
-        <div class="page-header-bg" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png)">
+        <div class="page-header-bg" style="background-image: url(assets/frontend/images/backgrounds/about.jpg)">
         </div>
         <div class="container">
             <div class="page-header__inner">
@@ -47,243 +48,97 @@
         </div>
     </section>
 
-    <section class="about-three about-four">
+    <section class="">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
-                    <div class="about-three__left">
-                        <div class="about-three__img-box wow slideInLeft animated" data-wow-delay="100ms" data-wow-duration="2500ms" style="visibility: visible; animation-duration: 2500ms; animation-delay: 100ms; animation-name: slideInLeft;">
-                            <div class="about-three__img">
-                                <img src="{{ asset('assets/frontend/images/resources/about-three-img-1.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__img-two">
-                                <img src="{{ asset('assets/frontend/images/resources/about-three-img-2.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__border"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
+                <div class="col-xl-12">
                     <div class="about-three__right">
                         <div class="section-title text-left">
-                            <div class="section-sub-title-box">
+                            <div class="section-sub-title-box"><br><br>
                                 <p class="section-sub-title">About TAMARA TRADING</p>
-                                <div class="section-title-shape-1">
+                                <div class="section-title-shape-1"><br><br>
                                     <img class="fab-icon-main" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
                                 </div>
                             </div>
-                            <h2 class="section-title__title">Roofsie - exceptional roofing services</h2>
                         </div>
-                        <p class="about-three__text">Nulla commodo dolor massa, vel pellentesque nulla congue quis. Fusce ut convallis diam. Nam id tortor et nunc tempor faucibus. Sed eu leo egestas, imperdiet felis sed, vestibulum ligula.</p>
-                        <ul class="list-unstyled about-three__point">
-                            <li>
-                                <div class="icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Exploring version oflorem veritatis proin</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Auctor aliquet aenean simply free text veritatis quis</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Consequat ipsum nec lorem sagittis sem nibh.</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="about.html" class="thm-btn about-three__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
+                        <p class="about-three__text">Tamara Trading provides high-end products and services and is currently based in Al Khobar, Saudi Arabia. Currently, we are the exclusive authorized agent for Corlido Group in Saudi Arabia, a global leader in procurement for oil and gas projects with over 6000 suppliers world-wide, more than 100$ million in turnover, and 1 million order items. As an official representative of a global company, we have the ability to procure items at a lower cost due to their economies of scale for procurement, sourcing, piping products materials and, projects and MRO commodities.</p>
+                        <br>
+                        <p>We are primarily a trading company that source products and materials for industrial projects. Our product portfolio includes project materials, rotating and static equipment, MRO, piping materials, such as pipes, fittings, flanges, unique forged products, O-let/branch fittings, valves, studs, and gaskets. Our scope of delivery meets global standards and the most stringent end-user specifications.</p>
+                        <a href="{{ url('contact-us') }}" class="thm-btn about-three__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!--Trust Company Start-->
-    <section class="trust-company">
-        <div class="trust-company-shape-1">
-            <img src="{{ asset('assets/frontend/images/shapes/traust-company-shape-1.png') }}" alt="">
-        </div>
-        <div class="trust-company-shape-2"></div>
-        <div class="trust-company-shape-3"></div>
-        <div class="trust-company-shape-4"></div>
-        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7">
-                    <div class="trust-company__left">
-                        <div class="trust-company__video-link">
-                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                <div class="trust-company__video-icon">
-                                    <span class="fa fa-play"></span>
-                                    <i class="ripple"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <h2 class="trust-company__title">Hundreds of customers trust our company</h2>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-5">
-                    <div class="trust-company__right">
-                        <ul class="list-unstyled trust-compay__points">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>We’ve expert & certified staff</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>We only provide quality services</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>We offer you free estimates</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Trust Company End-->
-
-    <section class="about-three about-four">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="about-three__left">
-                        <div class="about-three__img-box wow slideInLeft animated" data-wow-delay="100ms" data-wow-duration="2500ms" style="visibility: visible; animation-duration: 2500ms; animation-delay: 100ms; animation-name: slideInLeft;">
-                            <div class="about-three__img">
-                                <img src="{{ asset('assets/frontend/images/resources/about-three-img-1.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__img-two">
-                                <img src="{{ asset('assets/frontend/images/resources/about-three-img-2.jpg') }}" alt="">
-                            </div>
-                            <div class="about-three__border"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="about-three__right">
-                        <div class="section-title text-left">
-                            <div class="section-sub-title-box">
-                                <p class="section-sub-title">About EXPERTS</p>
-                                <div class="section-title-shape-1">
-                                    <img class="fab-icon-main" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
-                                </div>
-                            </div>
-                            <h2 class="section-title__title">Roofsie - exceptional roofing services</h2>
-                        </div>
-                        <p class="about-three__text">Nulla commodo dolor massa, vel pellentesque nulla congue quis. Fusce ut convallis diam. Nam id tortor et nunc tempor faucibus. Sed eu leo egestas, imperdiet felis sed, vestibulum ligula.</p>
-                        <ul class="list-unstyled about-three__point">
-                            <li>
-                                <div class="icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Exploring version oflorem veritatis proin</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Auctor aliquet aenean simply free text veritatis quis</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Consequat ipsum nec lorem sagittis sem nibh.</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="about.html" class="thm-btn about-three__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </section><br><br>
 
     <!--Brand One Start-->
     <section class="brand-one">
         <div class="brand-one__inner">
             <div class="brand-one__shape-1">
-                <img src="{{ asset('assets/frontend/images/shapes/brand-one-shape-1.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/brand-one-shape-1.png') }}" alt="">
             </div>
             <div class="brand-one__shape-2 float-bob-y">
-                <img src="{{ asset('assets/frontend/images/shapes/brand-one-shape-2.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/brand-one-shape-2.png') }}" alt="">
             </div>
             <div class="container">
                 <div class="sliderTest">
                     <div class="slide-track">
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/aramco1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/Nobian1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/rdw.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/lng1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/ar.jpg') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/GE1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/ye1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="60" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/cbre.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/cargill.jpg') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/3M1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/eaton.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/sabic1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/staatsolie_logo_rgb.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/taqa-og-300.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/Philips_logo.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/lynkco.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/huntsman.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section><br>
     <!--Brand One End-->
 
     <!--CTA One Start-->
@@ -300,7 +155,7 @@
                     <h3 class="cta-one__title">WE OPTIMIZE YOUR PROCUREMENT PROCESS</h3>
                 </div>
                 <div class="cta-one__btn-box">
-                    <a href="contact.html" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> REQUEST ADVICE</a>
+                    <a href="{{ url('contact-us') }}" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> REQUEST ADVICE</a>
                 </div>
             </div>
         </div>

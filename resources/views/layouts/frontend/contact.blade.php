@@ -8,7 +8,7 @@
 
 @section('content')
     <section class="page-header">
-        <div class="page-header-bg" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png)">
+        <div class="page-header-bg" style="background-image: url(assets/frontend/images/backgrounds/contact.png)">
         </div>
         <div class="container">
             <div class="page-header__inner">
@@ -29,17 +29,18 @@
         <div class="container">
             <div class="section-title text-center">
                 <div class="section-sub-title-box">
-                    <p class="section-sub-title">Contact with us</p>
+                    <p class="section-sub-title">Contact Us</p>
                     <div class="section-title-shape-1">
                         <img class="fab-icon-main" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
                     </div>
                 </div>
-                <h2 class="section-title__title">Drop us a line!</h2>
+                <h2 class="section-title__title">Drop us a line!</h2><br>
+                <P style="text-align: justify">Tamara Trading utilizes highly enthusiastic and experienced supply chain and quality management professionals with vast knowledge incorporate such as Saudi Aramco and other global companies. We  are fully enabled with all necessary resources  to accommodate any operation, facilities, and project needs. Our technical competencies and attributes keep our name one step ahead amidst the market performance. </P>
             </div>
             <div class="row">
                 <div class="col-xl-12">
                     <div class="contact-page__form">
-                        <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                        <form class="comment-one__form contact-form-validated" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="comment-form__input-box">
@@ -78,8 +79,7 @@
                     </div>
                     <div class="contact-details__content">
                         <h4>
-                            <a href="tel:9200368090" class="contact-details__number-1">+92 (003) 68-090</a>
-                            <a href="tel:6668888000" class="contact-details__number-2">+ 666 8888 000</a>
+                            <a href="tel:9200368090" class="contact-details__number-1">+966 13 830 2223</a>
                         </h4>
                     </div>
                 </li>
@@ -89,17 +89,18 @@
                     </div>
                     <div class="contact-details__content">
                         <h4>
-                            <a href="mailto:info@company.com" class="contact-details__number-1">info@company.com</a>
-                            <a href="mailto:needhelp@company.com" class="contact-details__number-2">needhelp@company.com</a>
+                            <a href="mailto:info@tamara-group.com" class="contact-details__number-1">Info@tamara-group.com </a>
                         </h4>
                     </div>
                 </li>
                 <li>
-                    <div class="contact-details__icon">
+                    <div class="contact-details__icon" style="margin-top: 78px">
                         <span class="icon-pin"></span>
                     </div>
                     <div class="contact-details__content">
-                        <h4>66 broklyn golden street <br> 600 New york. USA</h4>
+                        <h4>2682 Bashar Bin Burd Street, Office number 406,
+                            Olaya, AlKhobar - 7353 34448 ,Saudi Arabia
+                        </h4>
                     </div>
                 </li>
             </ul>

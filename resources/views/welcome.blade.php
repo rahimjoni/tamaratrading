@@ -20,13 +20,19 @@
             width: auto;
         }
         .sliderTest .slide-track {
-            animation: scroll 40s linear infinite;
+            animation: scroll 50s linear infinite;
             display: flex;
             width: calc(250px * 14);
         }
         .sliderTest .slide {
             height: 100px;
             width: 250px;
+            margin-top: 25px;
+        }
+        .serve-p{
+            margin-top: 10px;
+            color: #fff;
+            margin-bottom: 60px;
         }
     </style>
 @endpush
@@ -50,30 +56,29 @@
                 "prevEl": "#main-slider__swiper-button-prev"
                 },
                 "autoplay": {
-                "delay": 5000
+                "delay": 6000
                 }}'>
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
                     <div class="image-layer"
-                         style="background-image: url(assets/frontend/images/backgrounds/gasoil.jpg);"></div>
+                         style="background-image: url(assets/frontend/images/backgrounds/cover-02.png);"></div>
                     <!-- /.image-layer -->
 
-                    <div class="container">
+                    <div class="container"><br>
                         <div class="row">
-                            <div class="col-xl-7 col-lg-8">
-                                <div class="main-slider__content"><br>
-                                    <p class="main-slider__sub-title">THE PURCHASING SPECIALIST FOR OIL & GAS</p>
-                                    <h2 class="main-slider__title">INDIRECT PURCHASING OIL & GAS</h2>
-                                    <div class="main-slider__btn-box">
-                                        <a href="{{ url('services') }}" class="thm-btn main-slider__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
-                                    </div>
+                            <div class="col-xl-7 col-lg-8 col-sm-7 col-md-7">
+                                <div class="main-slider__content"><br><br>
+                                    <h5 class="main-slider__title"><b style="font-size: 55px">TAMARA TRADING</b></h5><br>
+                                    <p class="main-slider__sub-title">Part of <b>TAMARA GROUP</b></p>
+                                    <h5 class="main-slider__title">EXCLUSIVE AGENT OF <b>CORLIDO GROUP</b></h5>
+                                    <img class="wow fadeInUp img-fluid" data-wow-delay="100ms"
+                                         data-wow-duration="2500ms" src="{{ asset('assets/frontend/images/partner/logo-corlido.png') }}" style="width: 90px">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="swiper-slide">
                     <div class="image-layer"
                          style="background-image: url(assets/frontend/images/backgrounds/pipe.jpeg);"></div>
@@ -81,33 +86,13 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-7 col-lg-8">
-                                <div class="main-slider__content"><br>
-                                    <p class="main-slider__sub-title">THE PROCUREMENT SPECIALIST FOR THE INDUSTRY</p>
-                                    <h2 class="main-slider__title">INDIRECT INDUSTRY PROCUREMENT</h2>
-                                    <div class="main-slider__btn-box">
-                                        <a href="about.html" class="thm-btn main-slider__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="image-layer"
-                         style="background-image: url(assets/frontend/images/backgrounds/moto.jpg);"></div>
-                    <!-- /.image-layer -->
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-7 col-lg-8">
-                                <div class="main-slider__content"><br>
-                                    <p class="main-slider__sub-title">THE PURCHASING SPECIALIST FOR THE ENERGY</p>
-                                    <h2 class="main-slider__title">INDIRECT ENERGY PURCHASE</h2>
-                                    <div class="main-slider__btn-box">
-                                        <a href="about.html" class="thm-btn main-slider__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
-                                    </div>
+                            <div class="col-xl-7 col-lg-8 col-sm-7 col-md-7">
+                                <div class="main-slider__content"><br><br><br>
+                                    <h5 class="main-slider__title"><b style="font-size: 55px">TAMARA TRADING</b></h5><br>
+                                    <p class="main-slider__sub-title">Part of <b>TAMARA GROUP</b></p>
+                                    <h5 class="main-slider__title">EXCLUSIVE AGENT OF <b>CORLIDO GROUP</b></h5>
+                                    <img class="wow slideInUp img-fluid" data-wow-delay="100ms"
+                                         data-wow-duration="2500ms" src="{{ asset('assets/frontend/images/partner/logo-corlido.png') }}" style="width: 90px">
                                 </div>
                             </div>
                         </div>
@@ -131,73 +116,61 @@
     <!--Main Slider End-->
     <section class="services-two">
         <div class="services-two-shape-1 float-bob-x">
-            <img src="{{ asset('assets/frontend/images/shapes/services-two-shape-1.png') }}" alt="">
+            <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/services-two-shape-1.png') }}" alt="">
         </div>
         <div class="container">
             <div class="section-title text-center">
                 <div class="section-sub-title-box">
-                    <p class="section-sub-title">Our services</p>
+                    <p class="section-sub-title">OFFERINGS</p>
                     <div class="section-title-shape-1">
-                        <img class="fab-icon-main" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
+                        <img class="fab-icon-main img-fluid" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
                     </div>
                 </div>
-                <h2 class="section-title__title">WHAT SERVICES ARE YOU LOOKING FOR?</h2>
+                <h2 class="section-title__title">TAMARA TRADING OFFERINGS</h2>
             </div>
             <div class="row">
                 <!--Services Two Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <div class="services-two__single">
+                <div class="col-xl-4 col-lg-6 col-md-4 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
+                    <div class="services-two__single" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.7)),url(assets/frontend/images/backgrounds/project-supply.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
                         <div class="services-two__icon">
                             <i class="fa fa-plus"></i>
                         </div>
-                        <h3 class="services-two__title"><a href="{{ url('services') }}">PROCUREMENT</a></h3>
+                        <h3 class="services-two__title"><a href="{{ url('project') }}">PROJECT SUPPLY</a></h3>
                         <div class="services-two__read-more">
-                            <a href="{{ url('services') }}"> More <i class="fa fa-arrow-right"></i></a>
+                            <a href="{{ url('project') }}"> More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <!--Services Two Single End-->
                 <!--Services Two Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                    <div class="services-two__single">
+                <div class="col-xl-4 col-lg-6 col-md-4 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                    <div class="services-two__single" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.7)),url(assets/frontend/images/backgrounds/pipe-supply.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
                         <div class="services-two__icon">
                             <i class="fa fa-plus"></i>
                         </div>
-                        <h3 class="services-two__title"><a href="modified-roofing.html">PIPING SUPPLY</a>
+                        <h3 class="services-two__title"><a href="{{ url('piping') }}">PIPING SUPPLY</a>
                         </h3>
                         <div class="services-two__read-more">
-                            <a href="modified-roofing.html"> More <i class="fa fa-arrow-right"></i></a>
+                            <a href="{{ url('piping') }}"> More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <!--Services Two Single End-->
                 <!--Services Two Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                    <div class="services-two__single">
+                <div class="col-xl-4 col-lg-6 col-md-4 wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                    <div class="services-two__single" style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.7)),url(assets/frontend/images/backgrounds/mro-supply.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
                         <div class="services-two__icon">
                             <i class="fa fa-plus"></i>
                         </div>
-                        <h3 class="services-two__title"><a href="built-up-roofing.html">MATERIAL HANDLING</a>
+                        <h3 class="services-two__title"><a href="{{ url('mro') }}">MRO SUPPLY</a>
                         </h3>
                         <div class="services-two__read-more">
-                            <a href="built-up-roofing.html"> More <i class="fa fa-arrow-right"></i></a>
+                            <a href="{{ url('mro') }}"> More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <!--Services Two Single End-->
-                <!--Services Two Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
-                    <div class="services-two__single">
-                        <div class="services-two__icon">
-                            <i class="fa fa-plus"></i>
-                        </div>
-                        <h3 class="services-two__title"><a href="roof-inspection.html">E-PROCUREMENT</a></h3>
-                        <div class="services-two__read-more">
-                            <a href="roof-inspection.html"> More <i class="fa fa-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <!--Services Two Single End-->
+
             </div>
         </div>
     </section>
@@ -205,7 +178,7 @@
      <section class="cta-one">
         <div class="cta-one__img-box">
             <div class="cta-one__img">
-                <img src="{{ asset('assets/frontend/images/resources/cta-one-img-1.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/frontend/images/resources/cta-one-img-1.jpg') }}" alt="">
             </div>
         </div>
         <div class="container">
@@ -215,7 +188,7 @@
                     <h3 class="cta-one__title">WE OPTIMIZE YOUR PROCUREMENT PROCESS</h3>
                 </div>
                 <div class="cta-one__btn-box">
-                    <a href="{{ url('contact-us') }}" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> REQUEST ADVICE</a>
+                    <a href="{{ url('contact-us') }}" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i>SEND REQUEST</a>
                 </div>
             </div>
         </div>
@@ -225,7 +198,7 @@
     <!--About One Start-->
     <section class="about-one">
         <div class="about-one__shape float-bob-x">
-            <img src="{{ asset('assets/frontend/images/shapes/about-one-shape.png') }}" alt="">
+            <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/about-one-shape.png') }}" alt="">
         </div>
         <div class="container">
             <div class="row">
@@ -234,70 +207,41 @@
                         <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
                              data-wow-duration="2500ms">
                             <div class="about-one__img">
-                                <img src="{{ asset('assets/frontend/images/resources/about-one-img-1.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/frontend/images/backgrounds/about-home.png') }}" alt="">
                             </div>
                             <div class="about-one__line">
-                                <img src="{{ asset('assets/frontend/images/shapes/about-one-line.png') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/about-one-line.png') }}" alt="">
                             </div>
                             <div class="about-one__satisfied">
                                 <div class="about-one__satisfied-inner">
                                     <div class="about-one__satisfied-shape">
-                                        <img src="{{ asset('assets/frontend/images/shapes/about-one-satisfied-shape-1.png') }}" alt="">
+                                        <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/about-one-satisfied-shape-1.png') }}" alt="">
                                     </div>
                                     <div class="about-one__satisfied-content">
                                         <div class="about-one__satisfied-count-box">
-                                            <h3 class="odometer" data-count="98">00</h3>
-                                            <span class="about-one__satisfied-percent">%</span>
+                                            <h3 class="odometer" data-count="6000">6000</h3>
                                         </div>
-                                        <p class="about-one__satisfied-text">Satisfied customers</p>
+                                        <p class="about-one__satisfied-text"> Suppliers World-Wide</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="about-one__big-text">Tamara Trading</div>
+                            <div class="about-one__big-text">TAMARA TRADING</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-md-6 col-lg-6">
                     <div class="about-one__right">
                         <div class="section-title text-left">
                             <div class="section-sub-title-box">
-                                <p class="section-sub-title">About TAMARA TRADING</p>
+                                <p class="section-sub-title">ABOUT TAMARA TRADING</p>
                                 <div class="section-title-shape-1">
-                                    <img class="fab-icon-main" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
+                                    <img class="fab-icon-main img-fluid" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
                                 </div>
                             </div>
-                            <h2 class="section-title__title">Experienced & quality roofing services providers</h2>
                         </div>
-                        <p class="about-one__text">Nulla commodo dolor massa, vel pellentesque nulla congue quis. Fusce ut convallis diam. Nam id tortor et nunc tempor faucibus. Sed eu leo egestas, imperdiet felis sed, vestibulum ligula.</p>
-                        <ul class="list-unstyled about-one__points">
-                            <li>
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <span class="icon-confirmation"></span>
-                                    </div>
-                                    <div class="text-box">
-                                        <p>Innovative work</p>
-                                    </div>
-                                </div>
-                                <div class="text-box-two">
-                                    <p>Lorem ipsum dolor sit ame sedme consectetur nod.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon-box">
-                                    <div class="icon">
-                                        <span class="icon-confirmation"></span>
-                                    </div>
-                                    <div class="text-box">
-                                        <p>Certified company</p>
-                                    </div>
-                                </div>
-                                <div class="text-box-two">
-                                    <p>Lorem ipsum dolor sit ame sedme consectetur nod.</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="{{ url('about-us') }}" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
+                        <p class="about-one__text">Tamara Trading provides high-end products and services and is currently based in Al Khobar, Saudi Arabia. Currently, we are the exclusive authorized agent for Corlido Group in Saudi Arabia, a global leader in procurement for oil and gas projects with over 6000 suppliers world- wide, more than 100$ million in turnover, and 1 million order items. As an official representative of a global company, we have the ability to procure items at a lower cost due to their economies of scale for procurement, sourcing, piping products materials and, projects and MRO commodities.</p><br>
+                        <p class="about-one__text">We are primarily a trading company that source products and materials for industrial projects. Our product portfolio includes project materials, rotating and static equipment, MRO, piping materials, such as pipes, fittings, flanges, unique forged products, O-let/branch fittings, valves, studs, and gaskets. Our scope of delivery meets global standards and the most stringent end-user specifications.</p><br>
+                        <a href="{{ url('about-us') }}" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Discover More</a>
                     </div>
                 </div>
             </div>
@@ -305,90 +249,83 @@
     </section>
     <!--About One End-->
     <section class="why-choose-two">
-        <div class="why-choose-two-bg" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png);"></div>
-        <div class="container">
+        <div class="why-choose-two-bg" style="background-image: url(assets/frontend/images/backgrounds/partnership.png);"></div>
+        <div class="container" style="text-align: center">
             <div class="section-title text-center">
                 <div class="section-sub-title-box">
-                    <p class="section-sub-title">BRANCHES</p>
+                    <p class="section-sub-title">SECTORS WE SERVE</p>
                     <div class="section-title-shape-1">
-                        <img class="fab-icon-main" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
+                        <img class="fab-icon-main img-fluid" src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4">
-                    <div class="why-choose-two__left">
-                        <ul class="list-unstyled why-choose-two__list-one">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-roof-2"></span>
-                                </div>
-                                <div class="content">
-                                    <h4>Industry</h4>
-                                    <p>In a free hour when our power of choice is untrammelled and when nothing
-                                        prevents.</p>
-                                    <div class="why-choose-two__read-more">
-                                        <a href="{{ url('services') }}">Read More <i class="fa fa-arrow-right"></i> </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-mission"></span>
-                                </div>
-                                <div class="content">
-                                    <h4>Oil & Gas</h4>
-                                    <p>In a free hour when our power of choice is untrammelled and when nothing
-                                        prevents.</p>
-                                    <div class="why-choose-two__read-more">
-                                        <a href="about.html">Read More <i class="fa fa-arrow-right"></i> </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="why-choose-two__middle">
-                        <div class="why-choose-two__img-box">
-                            <div class="why-choose-two__img-one">
-                                <img src="{{ asset('assets/frontend/images/favicons/icon.png') }}" alt="">
-                            </div>
+                <!--Services Two Single Start-->
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-industry.png') }}">
                         </div>
+                        <p class="serve-p">Industry</p>
                     </div>
                 </div>
-                <div class="col-xl-4">
-                    <div class="why-choose-two__right">
-                        <ul class="list-unstyled why-choose-two__list-two clearfix">
-                            <li class="clearfix">
-                                <div class="content">
-                                    <h4>Energy</h4>
-                                    <p>In a free hour when our power of choice is untrammelled and when nothing
-                                        prevents.</p>
-                                    <div class="why-choose-two__read-more">
-                                        <a href="about.html">Read More <i class="fa fa-arrow-right"></i> </a>
-                                    </div>
-                                </div>
-                                <div class="icon">
-                                    <span class="icon-shield"></span>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="content">
-                                    <h4>Business & Financial</h4>
-                                    <p>In a free hour when our power of choice is untrammelled and when nothing
-                                        prevents.</p>
-                                    <div class="why-choose-two__read-more">
-                                        <a href="about.html">Read More <i class="fa fa-arrow-right"></i> </a>
-                                    </div>
-                                </div>
-                                <div class="icon">
-                                    <span class="icon-construction-worker"></span>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-gas.png') }}">
+                        </div>
+                        <p class="serve-p">Oil & Gas</p>
                     </div>
                 </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-solar.png') }}">
+                        </div>
+                        <p class="serve-p">Energy</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-truck.png') }}">
+                        </div>
+                        <p class="serve-p">Transport</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-presentation.png') }}">
+                        </div>
+                        <p class="serve-p">Business and financial</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-health.png') }}">
+                        </div>
+                        <p class="serve-p">Healthcare</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/hall.png') }}">
+                        </div>
+                        <p class="serve-p">Education</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="services-two__single1">
+                        <div class="services-two__icon1">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/sector/icon-school.png') }}">
+                        </div>
+                        <p class="serve-p">Public sector</p>
+                    </div>
+                </div>
+                <!--Services Two Single End-->
             </div>
         </div>
     </section><br>
@@ -398,52 +335,64 @@
     <section class="brand-one">
         <div class="brand-one__inner">
             <div class="brand-one__shape-1">
-                <img src="{{ asset('assets/frontend/images/shapes/brand-one-shape-1.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/brand-one-shape-1.png') }}" alt="">
             </div>
             <div class="brand-one__shape-2 float-bob-y">
-                <img src="{{ asset('assets/frontend/images/shapes/brand-one-shape-2.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/frontend/images/shapes/brand-one-shape-2.png') }}" alt="">
             </div>
             <div class="container">
                 <div class="sliderTest">
                     <div class="slide-track">
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/aramco1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/Nobian1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/rdw.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/lng1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/ar.jpg') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/GE1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/ye1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="60" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/cbre.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/cargill.jpg') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/3M1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/eaton.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/sabic1.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                         <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/staatsolie_logo_rgb.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/taqa-og-300.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/Philips_logo.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/lynkco.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img class="img-fluid" src="{{ asset('assets/frontend/images/partner/huntsman.png') }}" style="margin-left: 25px; margin-right: 25px" height="50" width="80" alt="" />
                         </div>
                     </div>
                 </div>
@@ -451,65 +400,6 @@
         </div>
     </section><br>
     <!--Brand One End-->
-
-    <!--Trust Company Start-->
-    <section class="trust-company">
-        <div class="trust-company-shape-1">
-            <img src="{{ asset('assets/frontend/images/shapes/traust-company-shape-1.png') }}" alt="">
-        </div>
-        <div class="trust-company-shape-2"></div>
-        <div class="trust-company-shape-3"></div>
-        <div class="trust-company-shape-4"></div>
-        <div class="trust-company-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/frontend/images/backgrounds/inner-banner-16.png);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7">
-                    <div class="trust-company__left">
-                        <div class="trust-company__video-link">
-                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                <div class="trust-company__video-icon">
-                                    <span class="fa fa-play"></span>
-                                    <i class="ripple"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <h2 class="trust-company__title">Hundreds of customers trust our company</h2>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-5">
-                    <div class="trust-company__right">
-                        <ul class="list-unstyled trust-compay__points">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>We’ve expert & certified staff</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>We only provide quality services</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>We offer you free estimates</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><br>
-    <!--Trust Company End-->
 @endsection
 
 @push('js')
