@@ -16,7 +16,7 @@
                             <li class="dropdown">
                                 <a href="javascript:;">OFFERING</a>
                                 <ul class="border-top-2px">
-                                    <li><a class="menu-mega" href="{{ url('/project') }}">PROJECT SUPPLY</a></li>
+                                    <li><a class="menu-mega" href="{{ url('/project-supply') }}">PROJECT SUPPLY</a></li>
                                     <li><a class="menu-mega" href="{{ url('/piping') }}">PIPE SUPPLY</a></li>
                                     <li><a class="menu-mega" href="{{ url('/mro') }}">MRO SUPPLY</a></li>
                                 </ul>

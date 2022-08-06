@@ -135,9 +135,9 @@
                         <div class="services-two__icon">
                             <i class="fa fa-plus"></i>
                         </div>
-                        <h3 class="services-two__title"><a href="{{ url('project') }}">PROJECT SUPPLY</a></h3>
+                        <h3 class="services-two__title"><a href="{{ url('project-supply') }}">PROJECT SUPPLY</a></h3>
                         <div class="services-two__read-more">
-                            <a href="{{ url('project') }}"> More <i class="fa fa-arrow-right"></i></a>
+                            <a href="{{ url('project-supply') }}"> More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

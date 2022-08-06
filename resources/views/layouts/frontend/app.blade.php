@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Roofsie HTML 5 Template " />
-
+    <meta name="description" content="We are primarily a trading company that source products and materials for industrial projects. We are primarily a trading company that source products and materials for industrial projects." />
+    <meta name="google-site-verification" content="2Ke1V3lvjVAHJ3yd9MtpOC4S0T2L6FsGkT33a3sMAT4" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
