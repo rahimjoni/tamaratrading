@@ -70,8 +70,8 @@
                             <div class="col-xl-7 col-lg-8 col-sm-7 col-md-7">
                                 <div class="main-slider__content"><br><br>
                                     <h5 class="main-slider__title"><b style="font-size: 55px">TAMARA TRADING</b></h5><br>
-                                    <p class="main-slider__sub-title">Part of <b>TAMARA GROUP</b></p>
-                                    <h5 class="main-slider__title">EXCLUSIVE AGENT OF <b>CORLIDO GROUP</b></h5>
+                                    <p class="main-slider__sub-title">Part of <a href="http://tamara-group.com/" target="_blank" style="color: #99774C"> TAMARA GROUP</a></p>
+                                    <h5 class="main-slider__title">EXCLUSIVE AGENT OF <a href="https://corlidogroup.com/" target="_blank" style="color: #ffffff"><b> CORLIDO GROUP</b></a></h5>
                                     <img class="wow fadeInUp img-fluid" data-wow-delay="100ms"
                                          data-wow-duration="2500ms" src="{{ asset('assets/frontend/images/partner/logo-corlido.png') }}" style="width: 90px">
                                 </div>
@@ -89,8 +89,8 @@
                             <div class="col-xl-7 col-lg-8 col-sm-7 col-md-7">
                                 <div class="main-slider__content"><br><br><br>
                                     <h5 class="main-slider__title"><b style="font-size: 55px">TAMARA TRADING</b></h5><br>
-                                    <p class="main-slider__sub-title">Part of <b>TAMARA GROUP</b></p>
-                                    <h5 class="main-slider__title">EXCLUSIVE AGENT OF <b>CORLIDO GROUP</b></h5>
+                                    <p class="main-slider__sub-title">Part of <a href="http://tamara-group.com/" target="_blank" style="color: #99774C"> TAMARA GROUP</a></p>
+                                    <h5 class="main-slider__title">EXCLUSIVE AGENT OF <a href="https://corlidogroup.com/" target="_blank" style="color: #ffffff"><b> CORLIDO GROUP</b></a></h5>
                                     <img class="wow slideInUp img-fluid" data-wow-delay="100ms"
                                          data-wow-duration="2500ms" src="{{ asset('assets/frontend/images/partner/logo-corlido.png') }}" style="width: 90px">
                                 </div>

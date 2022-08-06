@@ -56,7 +56,7 @@
                         <div class="service-details__category">
                             <ul class="service-details__category-list list-unstyled">
 
-                                <li><a href="{{ url('/project') }}">PROJECT SUPPLY <span class="fa fa-angle-right"></span></a></li>
+                                <li><a href="{{ url('/project-supply') }}">PROJECT SUPPLY <span class="fa fa-angle-right"></span></a></li>
 
                                 <li class="active"><a href="{{ url('/piping') }}">PIPING SUPPLY <span class="fa fa-angle-right"></span></a></li>
 
