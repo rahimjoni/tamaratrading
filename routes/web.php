@@ -31,4 +31,10 @@ Route::group(['namespace' => 'Frontend'], function() {
     Route::get('/piping','PageController@piping');
     Route::get('/mro','PageController@mro');
     Route::get('/strategic-partnership','PageController@strategicPartnership');
+    Route::post('/contact-message', 'PageController@contactMessage');
+});
+
+//Route for admin layout
+Route::group(['prefix' => 'admin','namespace' => 'Backend'], function() {
+
 });
