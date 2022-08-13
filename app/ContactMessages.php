@@ -17,7 +17,9 @@ class ContactMessages extends Model
 
         static::created(function ($item) {
 
-            $adminEmail = "info@tamaratradings.com";
+            //$adminEmail = "info@tamaratradings.com";
+            $adminEmail = ['info@tamaratradings.com'];
+
             Mail::to($adminEmail)->send(new ContactMail($item));
         });
     }

@@ -38,3 +38,8 @@ Route::group(['namespace' => 'Frontend'], function() {
 Route::group(['prefix' => 'admin','namespace' => 'Backend'], function() {
 
 });
+
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    // return what you want
+});

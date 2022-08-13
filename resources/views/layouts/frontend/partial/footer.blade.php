@@ -24,7 +24,7 @@
                     <div class="footer-widget__column footer-widget__explore clearfix">
                         <h3 class="footer-widget__title">Explore</h3>
                         <ul class="footer-widget__explore-list list-unstyled clearfix">
-                            <li><a href="{{ url('/project') }}">Offering</a></li>
+                            <li><a href="{{ url('/project-supply') }}">Offering</a></li>
                             <li><a href="{{ url('/strategic-partnership') }}">Strategic Partnership</a></li>
                             <li><a href="{{ url('/about-us') }}">About Us</a></li>
                             <li><a href="{{ url('/contact-us') }}">Contact Us</a></li>
